@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Pixelify+Sans&family=Playfair+Display&display=swap');
-
 *{
     padding:0px;
     margin:0px;
@@ -7,15 +5,15 @@
 
 .navbar{
     padding: 10px;
-    background-color: #ff4d6eb9;
-    border: 3px solid rgb(49, 155, 17);
+    background-color: #AF1B1B;
+    border: 2px solid black;
 }
 .navbar img{
     margin-left: 5px;
     border: 2px solid rgb(201, 24, 74);
     border-radius:30px;
 }
-.navbar .pink-rounded-links{
+.navbar .page-links{
     display:inline;
     font-family: pixelify sans;
     background-color:rgb(231, 52, 103);
@@ -37,22 +35,16 @@
 }
 .banner .header{
     color:rgb(31, 177, 50);
-    font-size: 5em;
-    font-family: fjalla one ;
-    margin-top: 1vh;
-    margin-bottom: 5px;
+    font-size: 4em;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
     text-shadow: 2px 2px #ffffff;
     text-align: center;
 }
-.banner span{
-    color:rgb(231, 52, 103);
-}
 .banner .par{
     color:rgb(145, 28, 77);
-    font-family: playfair display;
     font-size: 1.4em;
-    margin-top: 1vh;
-    margin-bottom: 5px;
+    margin-top: -3vh;
     text-shadow: 2px 2px rgb(255, 255, 255);
     text-align: center;
 }
@@ -61,57 +53,15 @@
     bottom: 0;
     width: 100%;
     border: 3px solid rgb(49, 155, 17);
-    background-color:  #ff4d6e;
+    background-color:  #222222;
     color: white;
     text-align: left;
 }
 .footer p{
-    font-family: playfair display;
-    color:rgb(109, 35, 48);
-    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    padding-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
-}
-.gallery{
-    background-image: url(images/banner2.jpg);
-    padding: 1.5vw;
-    height: 75vh;
-    width:90wv;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-.gallery h1{
-    font-size: 50px;
-    font-family: pixelify sans;
-    color: rgb(31, 177, 50);
-    text-shadow: 4px 1px pink;
-    text-align: left;
-    top: 10%;
-    bottom: 10%;
-    left: 5%;
-}
-.mypics img{
-    transition:.70s;
-    margin: 4px;
-    margin-bottom: 7vh;
-    margin-top:-4vh;
-    width: 12%;
-    border: 10px outset pink;
-    position: relative;
-    display: inline-block;
-}
-.amarahpic{
-    text-align: center;
-}
-.amarahpic img{
-    transition:.60s;
-    margin: 3px;
-    width: 12%;
-    border: 10px outset pink;
-    position: relative;
-    display: inline-block;
-    text-align: center;
 }
